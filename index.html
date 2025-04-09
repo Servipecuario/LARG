@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SERVIPECUARIO</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #006400;
+      color: white;
+      padding: 1.5em;
+      text-align: center;
+    }
+    nav {
+      background-color: #228B22;
+      display: flex;
+      justify-content: center;
+      padding: 0.5em;
+      flex-wrap: wrap;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+    section {
+      padding: 2em;
+    }
+    .servicios {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 2em;
+    }
+    .card {
+      background-color: white;
+      border: 1px solid #ddd;
+      border-radius: 10px;
+      padding: 1.5em;
+      width: 300px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .contacto, .redes, .testimonios, .formulario {
+      margin-top: 2em;
+    }
+    footer {
+      background-color: #006400;
+      color: white;
+      text-align: center;
+      padding: 1.5em;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 10px;
+      margin: 0.5em 0;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background-color: #228B22;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>SERVIPECUARIO</h1>
+    <p>Mejoramiento y Tecnificación de Empresas Pecuarias con Tecnología de Punta</p>
+  </header>
+
+  <nav>
+    <a href="#inicio">Inicio</a>
+    <a href="#servicios">Servicios</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#testimonios">Testimonios</a>
+    <a href="#formulario">Formulario</a>
+  </nav>
+
+  <section id="inicio">
+    <h2>Bienvenido a SERVIPECUARIO</h2>
+    <p>Somos una empresa especializada en el desarrollo, mejoramiento y modernización de empresas pecuarias. Atendemos especies menores y mayores, implementando tecnologías de vanguardia para garantizar productividad, sostenibilidad y bienestar animal.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="servicios">
+      <div class="card">
+        <h3>Mejoramiento Genético</h3>
+        <p>Asesoría y aplicación de programas de mejoramiento genético para bovinos, porcinos, ovinos, caprinos y especies menores.</p>
+      </div>
+      <div class="card">
+        <h3>Tecnificación de Producción</h3>
+        <p>Implementación de sistemas modernos de manejo, alimentación, sanidad y reproducción.</p>
+      </div>
+      <div class="card">
+        <h3>Diseño de Infraestructura</h3>
+        <p>Planificación y diseño de granjas, establos, corrales, galpones y sistemas de producción acuícola.</p>
+      </div>
+      <div class="card">
+        <h3>Capacitaciones</h3>
+        <p>Formación a operarios, estudiantes y productores en manejo tecnificado, buenas prácticas y bienestar animal.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonios">
+    <h2>Testimonios</h2>
+    <p>"Gracias a SERVIPECUARIO logramos duplicar la producción en nuestra granja porcina." - Finca San Rafael</p>
+    <p>"El asesoramiento en piscicultura fue clave para obtener rentabilidad sostenible." - Acuafinca Las Bateas</p>
+  </section>
+
+  <section id="formulario" class="formulario">
+    <h2>Contáctanos</h2>
+    <form action="#">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="correo">Correo Electrónico:</label>
+      <input type="email" id="correo" name="correo" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <section id="contacto" class="contacto">
+    <h2>Información de Contacto</h2>
+    <p>Correo: contacto@servipecuario.com</p>
+    <p>Teléfono: +57 310 000 0000</p>
+    <p>WhatsApp: <a href="https://wa.me/573100000000" target="_blank">Chatear con nosotros</a></p>
+    <p>Ubicación: Aguachica, Cesar, Colombia</p>
+    <div class="redes">
+      <h3>Síguenos en redes sociales</h3>
+      <p><a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">YouTube</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 SERVIPECUARIO. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
